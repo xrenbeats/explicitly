@@ -11,11 +11,11 @@ targets:
     type: application
     platform: iOS
     sources:
-      - ExplicitMusicTools
+      - Explicitly
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.xren.explicitmusictools
-        PRODUCT_NAME: ExplicitMusicTools
+        PRODUCT_NAME: Explicitly
         TARGETED_DEVICE_FAMILY: "1,2"
         SWIFT_VERSION: "5.0"
         GENERATE_INFOPLIST_FILE: YES
