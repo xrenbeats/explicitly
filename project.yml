@@ -1,5 +1,6 @@
 
-name: ExplicitMusicTools
+
+name: Explicitly
 
 options:
   bundleIdPrefix: com.xren
@@ -7,17 +8,16 @@ options:
     iOS: "15.0"
 
 targets:
-  ExplicitMusicTools:
+  Explicitly:
     type: application
     platform: iOS
     sources:
-      - Explicitly
+      - path: Explicitly
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.xren.explicitmusictools
         PRODUCT_NAME: Explicitly
-        TARGETED_DEVICE_FAMILY: "1,2"
         SWIFT_VERSION: "5.0"
+        TARGETED_DEVICE_FAMILY: "1,2"
         GENERATE_INFOPLIST_FILE: YES
-        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
         CODE_SIGNING_ALLOWED: NO
